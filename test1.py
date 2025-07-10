@@ -1,5 +1,6 @@
 import matplotlib
-matplotlib.use('TkAgg')
+matplotlib.use('TkAgg')  # ✅ 关键：避免 PyCharm 后端报错
+
 import matplotlib.pyplot as plt
 import numpy as np
 
