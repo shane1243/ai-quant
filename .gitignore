@@ -1,0 +1,13 @@
+# 忽略 PyCharm 项目配置
+.idea/
+
+# 忽略 Python 编译缓存
+__pycache__/
+*.pyc
+
+# 忽略 Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# 忽略数据文件
+*.csv
+*.xlsx
